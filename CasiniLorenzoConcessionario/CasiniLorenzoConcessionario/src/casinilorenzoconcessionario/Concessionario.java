@@ -75,7 +75,7 @@ public class Concessionario {
         return ragioneSociale;
     }
 
-    public String getPIva() {
+    public String getpIva() {
         return pIva;
     }
 
@@ -83,7 +83,7 @@ public class Concessionario {
         return parcoAuto;
     }
 
-    public Integer getSaldoVendite() {
+    public int getSaldoVendite() {
         return saldoVendite;
     }
 
@@ -91,7 +91,16 @@ public class Concessionario {
         this.ragioneSociale = ragioneSociale;
     }
 
-    public void setPIva(String pIva) {
+    public void setpIva(String pIva) {
         this.pIva = pIva;
     }
+
+    public void setParcoAuto(Auto[] parcoAuto) {
+        this.parcoAuto = parcoAuto;
+    }
+
+    public void setSaldoVendite(int saldoVendite) {
+        this.saldoVendite = saldoVendite;
+    }
+    
 }
