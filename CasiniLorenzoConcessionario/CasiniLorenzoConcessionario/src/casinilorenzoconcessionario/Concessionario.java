@@ -102,5 +102,10 @@ public class Concessionario {
     public void setSaldoVendite(int saldoVendite) {
         this.saldoVendite = saldoVendite;
     }
+
+    @Override
+    public String toString() {
+        return "Concessionario{" + "ragioneSociale=" + ragioneSociale + ", pIva=" + pIva + ", parcoAuto=" + parcoAuto + ", saldoVendite=" + saldoVendite + '}';
+    }
     
 }
